@@ -397,7 +397,7 @@ export function attachEventListners(main) {
 }
 
 function getAuthoringAssistantUrl() {
-  const LOCAL_URL = 'https://localhost.corp.adobe.com:8013/dist/universal_editor.html';
+  const LOCAL_URL = 'https://localhost.corp.adobe.com:8013/dist/universal_editor.html?endpoint=local&livecycle-authoring-assistant-spa_version=local&source=local';
   const PROD_URL = 'https://experience.adobe.com/solutions/livecycle-authoring-assistant-spa/static-assets/universal_editor.html';
   const STAGE_URL = 'https://experience-stage.adobe.com/solutions/livecycle-authoring-assistant-spa/static-assets/universal_editor.html';
 
