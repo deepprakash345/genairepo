@@ -402,10 +402,10 @@ function getAuthoringAssistantUrl() {
   const STAGE_URL = 'https://experience-stage.adobe.com/solutions/livecycle-authoring-assistant-spa/static-assets/universal_editor.html';
 
   const params = new URLSearchParams(window.location.search);
-  // const version = params.get('livecycle-authoring-assistant-spa_version');
-  // const endpoint = params.get('endpoint');
-  const version="local";
-  const endpoint="local";
+  const version = params.get('livecycle-authoring-assistant-spa_version');
+  const endpoint = params.get('endpoint');
+  // const version="local";
+  // const endpoint="local";
   console.log('AEM Forms Authoring Assistant extension version:', version);
 
   // Determine base URL based on version
