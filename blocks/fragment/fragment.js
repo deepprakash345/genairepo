@@ -4,7 +4,10 @@
  * https://www.aem.live/developer/block-collection/fragment
  */
 
+<<<<<<< HEAD
 // eslint-disable-next-line import/no-cycle
+=======
+>>>>>>> 4c5892c (Initial commit)
 import {
   decorateMain,
 } from '../../scripts/scripts.js';
